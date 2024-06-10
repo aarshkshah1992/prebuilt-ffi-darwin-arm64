@@ -9,6 +9,7 @@ package ffi
 // #include "./filcrypto.h"
 import "C"
 import (
+	"github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64/cgo"
 	"os"
 	"runtime"
 
@@ -21,8 +22,6 @@ import (
 	"github.com/filecoin-project/go-address"
 	commcid "github.com/filecoin-project/go-fil-commcid"
 	"github.com/filecoin-project/go-state-types/abi"
-
-	"github.com/filecoin-project/filecoin-ffi/cgo"
 )
 
 // VerifySeal returns true if the sealing operation from which its inputs were

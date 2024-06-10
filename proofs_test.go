@@ -3,6 +3,7 @@ package ffi
 import (
 	"bytes"
 	"crypto/rand"
+	"github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64/cgo"
 	"io"
 	"io/ioutil"
 	"math/big"
@@ -12,8 +13,6 @@ import (
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-
-	"github.com/filecoin-project/filecoin-ffi/cgo"
 )
 
 func TestRegisteredSealProofFunctions(t *testing.T) {

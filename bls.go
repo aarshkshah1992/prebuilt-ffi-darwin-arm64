@@ -9,7 +9,7 @@ package ffi
 // #include "./filcrypto.h"
 import "C"
 import (
-	"github.com/filecoin-project/filecoin-ffi/cgo"
+	"github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64/cgo"
 )
 
 // Hash computes the digest of a message

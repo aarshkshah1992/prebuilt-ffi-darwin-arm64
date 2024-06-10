@@ -4,7 +4,7 @@
 package ffi
 
 import (
-	"github.com/filecoin-project/filecoin-ffi/cgo"
+	"github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64/cgo"
 	commcid "github.com/filecoin-project/go-fil-commcid"
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/filecoin-project/go-state-types/proof"

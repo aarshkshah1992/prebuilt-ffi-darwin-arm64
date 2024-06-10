@@ -5,9 +5,8 @@ package main
 
 import (
 	"fmt"
+	ffi "github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64"
 	"os"
-
-	ffi "github.com/filecoin-project/filecoin-ffi"
 )
 
 func main() {

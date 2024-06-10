@@ -12,10 +12,10 @@ import "C"
 import (
 	"context"
 	"fmt"
+	"github.com/aarshkshah1992/prebuilt-ffi-darwin-arm64/cgo"
 	gobig "math/big"
 	"runtime"
 
-	"github.com/filecoin-project/filecoin-ffi/cgo"
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/filecoin-project/go-state-types/big"
 	"github.com/filecoin-project/go-state-types/network"
