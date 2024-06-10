@@ -18,6 +18,7 @@ func Hash(message Message) Digest {
 	if digest == nil {
 		return Digest{}
 	}
+	
 	return *digest
 }
 
