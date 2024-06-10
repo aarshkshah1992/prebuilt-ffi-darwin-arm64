@@ -35,7 +35,7 @@ const (
 type FVMOpts struct {
 	FVMVersion uint64
 	Externs    cgo.Externs
-	
+
 	Epoch          abi.ChainEpoch
 	Timestamp      uint64
 	ChainID        uint64
@@ -59,6 +59,8 @@ func CreateFVM(opts *FVMOpts) (*FVM, error) {
 	if err != nil {
 		return nil, xerrors.Errorf("invalid circ supply: %w", err)
 	}
+
+	fmt.Println("FVM Version: ", opts.FVMVersion)
 
 	exHandle := cgo.Register(context.TODO(), opts.Externs)
 	var executor *cgo.FvmMachine
